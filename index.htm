@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html class="theme-default typo-default" lang="en">
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta content="width=device-width,initial-scale=1" name="viewport">
+	<meta content="#ff3e00" name="theme-color">
+	<!--<base href="/">-->
+	<base href=".">
+	<link href="./src/prism.css" rel="stylesheet">
+	<link href="https://svelte.dev/manifest.json" rel="manifest">
+	<link href="https://svelte.dev/favicon.png" rel="icon" type="image/png">
+	<meta content="summary_large_image" name="twitter:card">
+	<meta content="@sveltejs" name="twitter:site">
+	<meta content="@sveltejs" name="twitter:creator">
+	<meta content="https://svelte.dev/images/twitter-card.png" name="twitter:image">
+	<link rel="stylesheet" href="./src/main.394502926.css">
+	<link rel="stylesheet" href="./src/index.69c30cc7.css">
+	<link rel="stylesheet" href="./src/index.15c283f2.css">
+	<link rel="stylesheet" href="./src/Repl.2e5e8b83.css">
+	<link rel="stylesheet" href="./src/InputOutputToggle.027a26b7.css">
+	<link rel="stylesheet" href="./src/ReplWidget.e30046bf.css">
+	<style>
+		@media print {
+			#ghostery-purple-box {
+				display: none !important
+			}
+		}
+	</style>
+	<script src="./src/client.0e7d099c.js" type="module"
+		crossorigin="use-credentials"></script>
+	<title>Workshop on Svelte - learn how to build efficient web apps</title>
+	<meta name="twitter:title" content="Svelte">
+	<meta name="twitter:description" content="Workshop on Svelte">
+	<meta name="Description" content="Workshop on Svelte">
+	<style></style>
+</head>
+
+<body>
+	<div id="sapper">
+		<div style="display: none"><svg>
+				<symbol id="arrow-left" class="icon" viewBox="0 0 24 24">
+					<line x1="19" y1="12" x2="5" y2="12"></line>
+					<polyline points="12 19 5 12 12 5"></polyline>
+				</symbol>
+				<symbol id="arrow-right" class="icon" viewBox="0 0 24 24">
+					<line x1="5" y1="12" x2="19" y2="12"></line>
+					<polyline points="12 5 19 12 12 19"></polyline>
+				</symbol>
+				<symbol id="arrow-up" class="icon" viewBox="0 0 24 24">
+					<line x1="12" y1="19" x2="12" y2="5"></line>
+					<polyline points="5 12 12 5 19 12"></polyline>
+				</symbol>
+				<symbol id="arrow-down" class="icon" viewBox="0 0 24 24">
+					<line x1="12" y1="5" x2="12" y2="19"></line>
+					<polyline points="19 12 12 19 5 12"></polyline>
+				</symbol>
+				<symbol id="check" class="icon" viewBox="0 0 24 24">
+					<polyline points="20 6 9 17 4 12"></polyline>
+				</symbol>
+				<symbol id="close" class="icon" viewBox="0 0 24 24">
+					<line x1="18" y1="6" x2="6" y2="18"></line>
+					<line x1="6" y1="6" x2="18" y2="18"></line>
+				</symbol>
+				<symbol id="download" class="icon" viewBox="0 0 24 24">
+					<path d="M21 15V19A2 2 0 0 1 19 21H5A2 2 0 0 1 3 19V15"></path>
+					<polyline points="7 10 12 15 17 10"></polyline>
+					<line x1="12" y1="15" x2="12" y2="3"></line>
+				</symbol>
+				<symbol id="edit" class="icon" viewBox="0 0 24 24">
+					<path d="M20 14.66V20a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h5.34"></path>
+					<polygon points="18 2 22 6 12 16 8 16 8 12 18 2"></polygon>
+				</symbol>
+				<symbol id="github" class="icon" viewBox="0 0 24 24">
+					<path
+						d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22">
+					</path>
+				</symbol>
+				<symbol id="git-branch" class="icon" viewBox="0 0 24 24">
+					<line x1="6" y1="3" x2="6" y2="15"></line>
+					<circle cx="18" cy="6" r="3"></circle>
+					<circle cx="6" cy="18" r="3"></circle>
+					<path d="M18 9a9 9 0 0 1-9 9"></path>
+				</symbol>
+				<symbol id="log-in" class="icon" viewBox="0 0 24 24">
+					<path d="M15 3H19A2 2 0 0 1 21 5V19A2 2 0 0 1 19 21H15"></path>
+					<polyline points="10 17 15 12 10 7"></polyline>
+					<line x1="15" y1="12" x2="3" y2="12"></line>
+				</symbol>
+				<symbol id="maximize" class="icon" viewBox="0 0 24 24">
+					<path
+						d="M8 3H5a2 2 0 0 0-2 2v3m18 0V5a2 2 0 0 0-2-2h-3m0 18h3a2 2 0 0 0 2-2v-3M3 16v3a2 2 0 0 0 2 2h3">
+					</path>
+				</symbol>
+				<symbol id="maximize-2" class="icon" viewBox="0 0 24 24">
+					<polyline points="15 3 21 3 21 9"></polyline>
+					<polyline points="9 21 3 21 3 15"></polyline>
+					<line x1="21" y1="3" x2="14" y2="10"></line>
+					<line x1="3" y1="21" x2="10" y2="14"></line>
+				</symbol>
+				<symbol id="menu" class="icon" viewBox="0 0 24 24">
+					<line x1="3" y1="12" x2="21" y2="12"></line>
+					<line x1="3" y1="6" x2="21" y2="6"></line>
+					<line x1="3" y1="18" x2="21" y2="18"></line>
+				</symbol>
+				<symbol id="message-square" class="icon" viewBox="0 0 24 24">
+					<path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path>
+				</symbol>
+				<symbol id="minus" class="icon" viewBox="0 0 24 24">
+					<line x1="5" y1="12" x2="19" y2="12"></line>
+				</symbol>
+				<symbol id="plus" class="icon" viewBox="0 0 24 24">
+					<line x1="12" y1="5" x2="12" y2="19"></line>
+					<line x1="5" y1="12" x2="19" y2="12"></line>
+				</symbol>
+				<symbol id="save" class="icon" viewBox="0 0 24 24">
+					<path d="M19 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11l5 5v11a2 2 0 0 1-2 2z"></path>
+					<polyline points="17 21 17 13 7 13 7 21"></polyline>
+					<polyline points="7 3 7 8 15 8"></polyline>
+				</symbol>
+				<symbol id="link" class="icon" viewBox="0 0 24 24">
+					<path d="M9,7L6,7A2 2 0 0 0 6,17L9,17"></path>
+					<path d="M15,7L18,7A2 2 0 0 1 18,17L15,17"></path>
+					<path d="M7,12L17,12"></path>
+				</symbol>
+				<symbol id="chevron" class="icon" viewBox="0 0 24 24">
+					<path d="M2,7 L12,17 L20,7"></path>
+				</symbol>
+			</svg></div>
+		<header class="svelte-1txnqye visible">
+			<nav class="svelte-1txnqye"><a rel="prefetch" href="https://svelte.dev/" class="home svelte-1txnqye"
+					title="Homepage" style="background-image: url(svelte-logo-horizontal.svg)">Home</a>
+				<ul class="primary svelte-1txnqye">
+					<!-- <li class="hide-if-desktop svelte-1txnqye active"><a rel="prefetch" href="https://svelte.dev/"
+							class="svelte-1txnqye">Home</a></li> -->
+					<li><a rel="prefetch" href="#courses">courses</a></li>
+					<li><a rel="prefetch" href="#workshop">workshop</a></li>
+					<li><a rel="prefetch" href="#aboutus">instructors</a></li>
+					<li><a rel="prefetch" href="#register">register</a></li>
+				</ul>
+			</nav>
+		</header>
+		<main class="svelte-1ohgwbo"> <img alt="Svelte logo"
+				src="./src/svelte-logo-outline.svg"
+				class="parallax svelte-1inoott" style="transform: translate(0px, 0px);">
+			<section class="hero svelte-1u1foo2"><img alt="Svelte logotype" class="logotype svelte-1u1foo2"
+					src="./src/svelte-logotype.svg">
+				<h3 class="svelte-1u1foo2">Cybernetically enhanced web apps</h3>
+			</section>
+			<section class="svelte-1ojx4sy">
+				<div class="blurb svelte-dwakau">
+					<div class="box svelte-dwakau" style="background: var(--prime); grid-area: one / one / one / one;">
+						<a href="https://svelte.dev/blog/write-less-code" slot="one">
+							<h2>Write less code</h2>
+							<p>Build boilerplate-free components using languages you already know — HTML, CSS and
+								JavaScript</p> <span class="learn-more">learn more</span>
+						</a></div>
+					<div class="box svelte-dwakau" style="background: var(--flash); grid-area: two / two / two / two;">
+						<a href="https://svelte.dev/blog/virtual-dom-is-pure-overhead" slot="two">
+							<h2>No virtual DOM</h2>
+							<p>Svelte compiles your code to tiny, framework-less vanilla JS — your app starts fast and
+								stays fast</p> <span class="learn-more">learn more</span>
+						</a></div>
+					<div class="box svelte-dwakau"
+						style="background: var(--second); grid-area: three / three / three / three;"><a
+							href="https://svelte.dev/blog/svelte-3-rethinking-reactivity" slot="three">
+							<h2>Truly reactive</h2>
+							<p>No more complex state management libraries — Svelte brings reactivity to JavaScript
+								itself</p> <span class="learn-more">learn more</span>
+						</a></div>
+					<div class="what svelte-dwakau" style="grid-area: what;">
+						<div class="description" slot="what">
+							<p>Svelte is a radical new approach to building user interfaces. Whereas traditional
+								frameworks like React and Vue do the bulk of their work in the <em>browser</em>, Svelte
+								shifts that work into a <em>compile step</em> that happens when you build your app.</p>
+							<p>Instead of using techniques like virtual DOM diffing, Svelte writes code that surgically
+								updates the DOM when the state of your app changes.</p>
+							<p><a href="https://svelte.dev/blog/svelte-3-rethinking-reactivity">Read the introductory
+									blog post</a> to learn more.</p>
+						</div>
+					</div>
+					<div class="how svelte-dwakau" style="grid-area: how;">
+						<div style="grid-area: start; display: flex; flex-direction: column; min-width: 0" slot="how">
+							<pre class="language-bash" style="margin: 0 0 1em 0; min-width: 0; min-height: 0">npx degit sveltejs/template my-svelte-project
+cd my-svelte-project
+
+npm install
+npm run dev</pre>
+							<p style="flex: 1">See the <a
+									href="https://svelte.dev/blog/the-easiest-way-to-get-started">quickstart guide</a>
+								for more information.</p>
+							<p class="cta"><a rel="prefetch" href="https://svelte.dev/tutorial">Register for a workshop</a></p>
+						</div>
+					</div>
+				</div>
+			</section>
+			<div class="examples svelte-4730oc">
+				<section class="svelte-1ojx4sy">
+					<div class="example svelte-1t516hp">
+						<p>Svelte components are built on top of HTML. Just add data.</p>
+						<div class="repl-container svelte-1t516hp">
+			
+						</div>
+					</div>
+				</section>
+			
+			</div>
+			
+			<section class="svelte-1ojx4sy">
+				<h3>Instructors</h3>
+				<p>Svelte is free and open source software, made possible by the work of dozens of volunteers. 
+					
+			</section>
+		</main>
+	</div>
+	<script>
+		__SAPPER__ = {
+			baseUrl: "",
+			preloaded: [void 0, {}],
+			session: {
+				user: null
+			}
+		};
+		if ('serviceWorker' in navigator) navigator.serviceWorker.register('/service-worker.js');
+		(function () {
+			try {
+				eval("async function x(){}");
+				var main = "/client/client.0e7d099c.js"
+			} catch (e) {
+				main = "/client/legacy/client.c2e8ba47.js"
+			};
+			var s = document.createElement("script");
+			try {
+				new Function("if(0)import('')")();
+				s.src = main;
+				s.type = "module";
+				s.crossOrigin = "use-credentials";
+			} catch (e) {
+				s.src = "/client/shimport@1.0.1.js";
+				s.setAttribute("data-main", main);
+			}
+			document.head.appendChild(s);
+		}());
+	</script>
+
+</body>
+
+</html>
